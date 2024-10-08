@@ -31,9 +31,10 @@ import plasmic_plasmic_rich_components_css from "../plasmic_rich_components/plas
 import projectcss from "./plasmic.module.css"; // plasmic-import: 8hJWALBkKUeeBQwPGDeQHS/projectcss
 import sty from "./PlasmicListadoDeProductos.module.css"; // plasmic-import: Gg20TNQjnwiE/css
 import Icon3Icon from "./icons/PlasmicIcon__Icon3"; // plasmic-import: LvBixuLJ8d5o/icon
-import Icon4Icon from "./icons/PlasmicIcon__Icon4"; // plasmic-import: UEYjHwO6Y9Mk/icon
 import Icon5Icon from "./icons/PlasmicIcon__Icon5"; // plasmic-import: HTOOEs3MCSuB/icon
 import CheckSvgIcon from "./icons/PlasmicIcon__CheckSvg"; // plasmic-import: CWXe1ywOBmQJ/icon
+import carritoPngFEuu1GhKiop2 from "./images/carritoPng.png"; // plasmic-import: fEuu1GhKIOP2/picture
+import whatsapp2PngEijnwG50Bdy from "./images/whatsapp2Png.png"; // plasmic-import: eijnwG50-BDY/picture
 import auto1JpgBqhDtf1MTdnZ from "./images/auto1Jpg.jpg"; // plasmic-import: BQHDtf1MTdnZ/picture
 import auto2JpgAQjJa2SzGbV from "./images/auto2Jpg.jpg"; // plasmic-import: aQJJa2SzGbV_/picture
 import _2024SilveradoEvRst0221641471166Jpg5GWzmuPbn5Zn from "./images/_2024SilveradoEvRst0221641471166Jpg.jpg"; // plasmic-import: 5gWzmuPBN5zn/picture
@@ -161,19 +162,23 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                       href={"https://www.plasmic.app/"}
                       platform={"react"}
                     >
-                      {"Stories"}
-                    </PlasmicLink__>
-                    <PlasmicLink__
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__dTnS2
-                      )}
-                      href={"https://www.plasmic.app/"}
-                      platform={"react"}
-                    >
-                      {"Categories"}
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <h3
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h3,
+                              projectcss.__wab_text,
+                              sty.h3__j5XI
+                            )}
+                          >
+                            {"LLAMA +52 9845333661"}
+                          </h3>
+                        }
+
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
                     </PlasmicLink__>
                     <PlasmicLink__
                       className={classNames(
@@ -185,7 +190,23 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                       href={"https://www.plasmic.app/"}
                       platform={"react"}
                     >
-                      {"Recipes"}
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <h4
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h4,
+                              projectcss.__wab_text,
+                              sty.h4__c0Qpa
+                            )}
+                          >
+                            {"PRODUCTOS"}
+                          </h4>
+                        }
+
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
                     </PlasmicLink__>
                     <PlasmicLink__
                       className={classNames(
@@ -197,10 +218,159 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                       href={"https://www.plasmic.app/"}
                       platform={"react"}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "About"
-                        : "Recipes"}
+                      {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                        "About"
+                      ) : (
+                        <React.Fragment>
+                          <React.Fragment>{""}</React.Fragment>
+                          {
+                            <h4
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.h4,
+                                projectcss.__wab_text,
+                                sty.h4__uABi5
+                              )}
+                            >
+                              {"CONTACTANOS"}
+                            </h4>
+                          }
+
+                          <React.Fragment>{""}</React.Fragment>
+                        </React.Fragment>
+                      )}
                     </PlasmicLink__>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link___9FhJj
+                      )}
+                      href={"https://www.plasmic.app/"}
+                      platform={"react"}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                        "About"
+                      ) : (
+                        <React.Fragment>
+                          <React.Fragment>{""}</React.Fragment>
+                          {
+                            <h4
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.h4,
+                                projectcss.__wab_text,
+                                sty.h4__srPhR
+                              )}
+                            >
+                              {""}
+                            </h4>
+                          }
+
+                          <React.Fragment>{""}</React.Fragment>
+                        </React.Fragment>
+                      )}
+                    </PlasmicLink__>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__rEwOz
+                      )}
+                      href={"https://www.plasmic.app/"}
+                      platform={"react"}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                        "About"
+                      ) : (
+                        <React.Fragment>
+                          <React.Fragment>{""}</React.Fragment>
+                          {
+                            <h4
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.h4,
+                                projectcss.__wab_text,
+                                sty.h4__qCaUb
+                              )}
+                            >
+                              {""}
+                            </h4>
+                          }
+
+                          <React.Fragment>{""}</React.Fragment>
+                        </React.Fragment>
+                      )}
+                    </PlasmicLink__>
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img__fla62)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: carritoPngFEuu1GhKiop2,
+                        fullWidth: 68,
+                        fullHeight: 68,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        sty.link__cuFs
+                      )}
+                      href={"https://www.plasmic.app/"}
+                      platform={"react"}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly") ? (
+                        "About"
+                      ) : (
+                        <React.Fragment>
+                          <React.Fragment>{""}</React.Fragment>
+                          {
+                            <h4
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.h4,
+                                projectcss.__wab_text,
+                                sty.h4__iBqfr
+                              )}
+                            >
+                              {""}
+                            </h4>
+                          }
+
+                          <React.Fragment>{""}</React.Fragment>
+                        </React.Fragment>
+                      )}
+                    </PlasmicLink__>
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img___1HBu2)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"100px"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: whatsapp2PngEijnwG50Bdy,
+                        fullWidth: 76,
+                        fullHeight: 76,
+                        aspectRatio: undefined
+                      }}
+                    />
                   </div>
                 </div>
                 <div className={classNames(projectcss.all, sty.column__cvtYn)}>
@@ -246,12 +416,8 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                     </div>
                     <div
                       className={classNames(projectcss.all, sty.freeBox__t8NxU)}
-                    >
-                      <Icon4Icon
-                        className={classNames(projectcss.all, sty.svg___3GeEm)}
-                        role={"img"}
-                      />
-                    </div>
+                    />
+
                     <div
                       className={classNames(projectcss.all, sty.freeBox__svD)}
                     >
@@ -263,6 +429,26 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                   </div>
                 </div>
               </Stack__>
+            </div>
+          </div>
+          <div
+            data-plasmic-name={"hero2"}
+            data-plasmic-override={overrides.hero2}
+            className={classNames(projectcss.all, sty.hero2)}
+          >
+            <div className={classNames(projectcss.all, sty.freeBox__v1Z6D)}>
+              <h1
+                data-plasmic-name={"direccionesHidraulicas"}
+                data-plasmic-override={overrides.direccionesHidraulicas}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.h1,
+                  projectcss.__wab_text,
+                  sty.direccionesHidraulicas
+                )}
+              >
+                {""}
+              </h1>
             </div>
           </div>
           <div
@@ -307,26 +493,6 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                   }
                 </div>
               </div>
-            </div>
-          </div>
-          <div
-            data-plasmic-name={"hero2"}
-            data-plasmic-override={overrides.hero2}
-            className={classNames(projectcss.all, sty.hero2)}
-          >
-            <div className={classNames(projectcss.all, sty.freeBox__v1Z6D)}>
-              <h1
-                data-plasmic-name={"direccionesHidraulicas"}
-                data-plasmic-override={overrides.direccionesHidraulicas}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.h1,
-                  projectcss.__wab_text,
-                  sty.direccionesHidraulicas
-                )}
-              >
-                {""}
-              </h1>
             </div>
           </div>
           <div
@@ -1987,10 +2153,10 @@ const PlasmicDescendants = {
     "row",
     "menu",
     "socialSection",
-    "hero",
-    "container2",
     "hero2",
     "direccionesHidraulicas",
+    "hero",
+    "container2",
     "blog",
     "container3",
     "row5",
@@ -2041,10 +2207,10 @@ const PlasmicDescendants = {
   row: ["row", "menu", "socialSection"],
   menu: ["menu"],
   socialSection: ["socialSection"],
-  hero: ["hero", "container2"],
-  container2: ["container2"],
   hero2: ["hero2", "direccionesHidraulicas"],
   direccionesHidraulicas: ["direccionesHidraulicas"],
+  hero: ["hero", "container2"],
+  container2: ["container2"],
   blog: [
     "blog",
     "container3",
@@ -2203,10 +2369,10 @@ export const PlasmicListadoDeProductos = Object.assign(
     row: makeNodeComponent("row"),
     menu: makeNodeComponent("menu"),
     socialSection: makeNodeComponent("socialSection"),
-    hero: makeNodeComponent("hero"),
-    container2: makeNodeComponent("container2"),
     hero2: makeNodeComponent("hero2"),
     direccionesHidraulicas: makeNodeComponent("direccionesHidraulicas"),
+    hero: makeNodeComponent("hero"),
+    container2: makeNodeComponent("container2"),
     blog: makeNodeComponent("blog"),
     container3: makeNodeComponent("container3"),
     row5: makeNodeComponent("row5"),

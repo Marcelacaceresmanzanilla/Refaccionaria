@@ -156,31 +156,8 @@
     padding: 10px;
   }
 }
-.link__dTnS2 {
-  position: relative;
-  align-self: flex-start;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  text-align: left;
-  text-transform: none;
-  line-height: 1.5;
-  white-space: pre-wrap;
-  user-select: text;
-  text-decoration-line: none;
-  text-overflow: clip;
-  border-radius: 4px;
-  padding: 12px 16px;
-  margin: 0px;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .link__dTnS2 {
-    padding: 10px;
-    margin: 0px;
-  }
+.h3__j5XI {
+  color: var(--token-zy6xhYnWF8Y7);
 }
 .link__oIsf9 {
   position: relative;
@@ -208,6 +185,9 @@
     margin: 0px;
   }
 }
+.h4__c0Qpa {
+  color: var(--token-zy6xhYnWF8Y7);
+}
 .link__s7Dxd {
   position: relative;
   align-self: flex-start;
@@ -233,6 +213,110 @@
     padding: 10px;
     margin: 0px;
   }
+}
+.h4__uABi5 {
+  color: var(--token-GGYj13plNx6v);
+}
+.link___9FhJj {
+  position: relative;
+  align-self: flex-start;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .link___9FhJj {
+    padding: 10px;
+    margin: 0px;
+  }
+}
+.h4__srPhR {
+  color: var(--token-GGYj13plNx6v);
+}
+.link__rEwOz {
+  position: relative;
+  align-self: flex-start;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .link__rEwOz {
+    padding: 10px;
+    margin: 0px;
+  }
+}
+.h4__qCaUb {
+  color: var(--token-GGYj13plNx6v);
+}
+.img__fla62 {
+  object-fit: cover;
+  max-width: 100%;
+}
+.img__fla62 > picture > img {
+  object-fit: cover;
+}
+.link__cuFs {
+  position: relative;
+  align-self: flex-start;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .link__cuFs {
+    padding: 10px;
+    margin: 0px;
+  }
+}
+.h4__iBqfr {
+  color: var(--token-GGYj13plNx6v);
+}
+.img___1HBu2 {
+  object-fit: cover;
+  max-width: 100px;
+}
+.img___1HBu2 > picture > img {
+  object-fit: cover;
 }
 .column__cvtYn {
   display: flex;
@@ -292,7 +376,7 @@
   width: 36px;
   height: 36px;
   max-width: 100%;
-  background: #ffffff;
+  background: url("./images/logoIconeTiktokSimboloRougeWebp.webp") top 50% left 50% / cover repeat, #fffefe;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -300,13 +384,6 @@
   border-radius: 50%;
   padding: 0px;
   margin: 0px 0px 0px 10px;
-}
-.svg___3GeEm {
-  position: relative;
-  object-fit: cover;
-  max-width: 100%;
-  color: #bf0603;
-  height: 1em;
 }
 .freeBox__svD {
   display: flex;
@@ -329,6 +406,74 @@
   max-width: 100%;
   color: #bf0603;
   height: 1em;
+}
+.hero2 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: calc(0px + 0px) !important;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 1px;
+  background: url("./images/fotoWebsiteJpg.jpg") top 50% left 50% / cover repeat;
+  flex-wrap: nowrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  align-self: center;
+  align-content: stretch;
+  opacity: 1;
+  left: auto;
+  top: auto;
+  z-index: 1;
+  min-width: 0;
+  padding: 100px 4px 100px 5px;
+}
+.freeBox__v1Z6D {
+  display: flex;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: #ffffff;
+  flex-direction: column;
+  align-self: baseline;
+  left: auto;
+  top: auto;
+  z-index: 1;
+  right: auto;
+  bottom: auto;
+  padding: 15px 20px 25px;
+  margin: 270px 0px 0px;
+}
+.direccionesHidraulicas {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  color: var(--token-HxnmpURJ0E1r);
+  font-size: 55px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  line-height: 1;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: underline;
+  text-overflow: clip;
+  left: 30px;
+  top: 10px;
+  align-self: center;
+  z-index: 1;
+  bottom: 70px;
+  min-width: 0;
 }
 .hero {
   position: relative;
@@ -458,71 +603,6 @@
   .text__lkyNv {
     font-size: 16px;
   }
-}
-.hero2 {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-end;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  margin-top: calc(0px + 0px) !important;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 1px;
-  background: url("./images/fotoWebsiteJpg.jpg") top 50% left 50% / cover repeat;
-  flex-wrap: nowrap;
-  flex-grow: 0;
-  flex-shrink: 0;
-  align-self: center;
-  align-content: stretch;
-  opacity: 1;
-  min-width: 0;
-  padding: 100px 4px 100px 5px;
-}
-.freeBox__v1Z6D {
-  display: flex;
-  position: relative;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  background: #ffffff;
-  flex-direction: column;
-  align-self: baseline;
-  left: auto;
-  top: auto;
-  z-index: 1;
-  right: auto;
-  bottom: auto;
-  padding: 15px 20px 25px;
-  margin: 270px 0px 0px;
-}
-.direccionesHidraulicas {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  max-width: 800px;
-  color: var(--token-HxnmpURJ0E1r);
-  font-size: 55px;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  text-align: left;
-  text-transform: none;
-  line-height: 1;
-  letter-spacing: normal;
-  white-space: pre-wrap;
-  user-select: text;
-  text-decoration-line: underline;
-  text-overflow: clip;
-  left: 30px;
-  top: 10px;
-  align-self: center;
-  z-index: 1;
-  bottom: 70px;
-  min-width: 0;
 }
 .blog {
   display: flex;

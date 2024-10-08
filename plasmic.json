@@ -883,6 +883,31 @@
           "id": "mYaD7wqzdEZ3",
           "name": "ICON FACE.png",
           "filePath": "plasmic/refacciones/images/iconFacePng.png"
+        },
+        {
+          "id": "WTU2HoTX3WPS",
+          "name": "tiktok.png",
+          "filePath": "plasmic/refacciones/images/tiktokPng.png"
+        },
+        {
+          "id": "5k4u7twANlTI",
+          "name": "logo-icone-tiktok-simbolo-rouge.webp",
+          "filePath": "plasmic/refacciones/images/logoIconeTiktokSimboloRougeWebp.webp"
+        },
+        {
+          "id": "fEuu1GhKIOP2",
+          "name": "CARRITO.png",
+          "filePath": "plasmic/refacciones/images/carritoPng.png"
+        },
+        {
+          "id": "EHWPWdO4oFww",
+          "name": "Whatsapp.webp",
+          "filePath": "plasmic/refacciones/images/whatsappWebp.webp"
+        },
+        {
+          "id": "eijnwG50-BDY",
+          "name": "Whatsapp2.png",
+          "filePath": "plasmic/refacciones/images/whatsapp2Png.png"
         }
       ],
       "indirect": false,
@@ -930,7 +955,8 @@
           "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {
