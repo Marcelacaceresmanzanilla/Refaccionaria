@@ -2039,6 +2039,16 @@
         "projectId": "ohDidvG9XsCeFumugENU3J",
         "id": "BwOcdtoxJOlu"
       }
+    },
+    {
+      "name": "Unnamed Style Token",
+      "type": "color",
+      "value": "var(--antd-colorWarningTextHover)",
+      "category": "color",
+      "meta": {
+        "projectId": "8hJWALBkKUeeBQwPGDeQHS",
+        "id": "dcjvnxhk90Gd"
+      }
     }
   ],
   "global": {

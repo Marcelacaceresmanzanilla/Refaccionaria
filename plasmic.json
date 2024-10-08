@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -41,7 +41,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "jkU633o1Cz7HrJdwdxhVHk",
@@ -95,7 +96,8 @@
           }
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "ohDidvG9XsCeFumugENU3J",
@@ -495,7 +497,8 @@
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "8hJWALBkKUeeBQwPGDeQHS",
@@ -504,20 +507,6 @@
       "version": "latest",
       "cssFilePath": "plasmic/refacciones/plasmic.module.css",
       "components": [
-        {
-          "id": "QNYYU1LJ1Zqf",
-          "name": "Homepage",
-          "type": "managed",
-          "projectId": "8hJWALBkKUeeBQwPGDeQHS",
-          "renderModuleFilePath": "plasmic/refacciones/PlasmicHomepage.jsx",
-          "importSpec": {
-            "modulePath": "Homepage.jsx"
-          },
-          "cssFilePath": "plasmic/refacciones/PlasmicHomepage.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/"
-        },
         {
           "id": "q85bUZ7uEhyH",
           "name": "PageLayout",
@@ -558,6 +547,33 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "button"
+        },
+        {
+          "id": "4PlyQBFLEP3G",
+          "name": "Col",
+          "type": "managed",
+          "projectId": "8hJWALBkKUeeBQwPGDeQHS",
+          "renderModuleFilePath": "plasmic/refacciones/PlasmicCol.jsx",
+          "importSpec": {
+            "modulePath": "Col.jsx"
+          },
+          "cssFilePath": "plasmic/refacciones/PlasmicCol.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "TxOdf3qth2Mk",
+          "name": "NewPage",
+          "type": "managed",
+          "projectId": "8hJWALBkKUeeBQwPGDeQHS",
+          "renderModuleFilePath": "plasmic/refacciones/PlasmicNewPage.jsx",
+          "importSpec": {
+            "modulePath": "NewPage.jsx"
+          },
+          "cssFilePath": "plasmic/refacciones/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page"
         }
       ],
       "icons": [
@@ -610,6 +626,11 @@
           "id": "lruOCJHd5GHh",
           "name": "Icon9Icon",
           "moduleFilePath": "plasmic/refacciones/icons/PlasmicIcon__Icon9.jsx"
+        },
+        {
+          "id": "JV5uh1bBcUZ3",
+          "name": "BlackSvgIcon",
+          "moduleFilePath": "plasmic/refacciones/icons/PlasmicIcon__BlackSvg.jsx"
         }
       ],
       "images": [
@@ -702,6 +723,166 @@
           "id": "aQJJa2SzGbV_",
           "name": "AUTO 2.jpg",
           "filePath": "plasmic/refacciones/images/auto2Jpg.jpg"
+        },
+        {
+          "id": "BQHDtf1MTdnZ",
+          "name": "AUTO 1.jpg",
+          "filePath": "plasmic/refacciones/images/auto1Jpg.jpg"
+        },
+        {
+          "id": "mK3RPT4qE5h9",
+          "name": "AUTO 3.jpg",
+          "filePath": "plasmic/refacciones/images/auto3Jpg.jpg"
+        },
+        {
+          "id": "5gWzmuPBN5zn",
+          "name": "2024-silverado-ev-rst-022-1641471166.jpg",
+          "filePath": "plasmic/refacciones/images/_2024SilveradoEvRst0221641471166Jpg.jpg"
+        },
+        {
+          "id": "7-ZCJ-yxv56K",
+          "name": "20220417_112504654_5e44230891665_r_1581523964745_122-138-1321-737.jpeg_172596871.webp",
+          "filePath": "plasmic/refacciones/images/_202204171125046545E44230891665R15815239647451221381321737Jpeg172596871Webp.webp"
+        },
+        {
+          "id": "5dTGNdAT9iR3",
+          "name": "AUTO 5.jpg",
+          "filePath": "plasmic/refacciones/images/auto5Jpg.jpg"
+        },
+        {
+          "id": "jcz1gEtj5tfh",
+          "name": "AUTO 6.jpg",
+          "filePath": "plasmic/refacciones/images/auto6Jpg.jpg"
+        },
+        {
+          "id": "FPD7r4KdgK-g",
+          "name": "Foto website.jpg",
+          "filePath": "plasmic/refacciones/images/fotoWebsiteJpg.jpg"
+        },
+        {
+          "id": "-UA4OXHGIT6V",
+          "name": "AUTO 7.jpg",
+          "filePath": "plasmic/refacciones/images/auto7Jpg.jpg"
+        },
+        {
+          "id": "hviXLtCzVd00",
+          "name": "360_F_663173430_5UX2OvhxD0hUQj7CS1molVLDsAc0ZNAm.jpg",
+          "filePath": "plasmic/refacciones/images/_360F6631734305Ux2OvhxD0HUQj7Cs1MolVlDsAc0ZnAmJpg.jpg"
+        },
+        {
+          "id": "pvnV1hLTtLQ-",
+          "name": "AUTO 8.jpg",
+          "filePath": "plasmic/refacciones/images/auto8Jpg.jpg"
+        },
+        {
+          "id": "Z0xRfKyTLdH8",
+          "name": "HONDA.jpg",
+          "filePath": "plasmic/refacciones/images/hondaJpg.jpg"
+        },
+        {
+          "id": "L0q0XdR9FyeW",
+          "name": "AUTO 4.jpg",
+          "filePath": "plasmic/refacciones/images/auto4Jpg.jpg"
+        },
+        {
+          "id": "CFn3vjf7v4n4",
+          "name": "HYUNDAI.jpg",
+          "filePath": "plasmic/refacciones/images/hyundaiJpg.jpg"
+        },
+        {
+          "id": "qwuOoL9-G8d-",
+          "name": "ISUZU.jpg",
+          "filePath": "plasmic/refacciones/images/isuzuJpg.jpg"
+        },
+        {
+          "id": "ggbqcx-qLNvG",
+          "name": "KIA.jpg",
+          "filePath": "plasmic/refacciones/images/kiaJpg.jpg"
+        },
+        {
+          "id": "nE_Rv046qDvn",
+          "name": "MAZDA.jpg",
+          "filePath": "plasmic/refacciones/images/mazdaJpg.jpg"
+        },
+        {
+          "id": "QRIWSC807sEq",
+          "name": "MAZDA.jpeg",
+          "filePath": "plasmic/refacciones/images/mazdaJpeg.jpg"
+        },
+        {
+          "id": "QeY-K023wXDY",
+          "name": "MERCEDES.jpg",
+          "filePath": "plasmic/refacciones/images/mercedesJpg.jpg"
+        },
+        {
+          "id": "KSssEEF4fJGu",
+          "name": "MITSUBISHI.jpg",
+          "filePath": "plasmic/refacciones/images/mitsubishiJpg.jpg"
+        },
+        {
+          "id": "UlwMZXrAGFRR",
+          "name": "PEUGEOT.jpg",
+          "filePath": "plasmic/refacciones/images/peugeotJpg.jpg"
+        },
+        {
+          "id": "a_lVhHLT2INl",
+          "name": "NISSAN.jpg",
+          "filePath": "plasmic/refacciones/images/nissanJpg.jpg"
+        },
+        {
+          "id": "Y24WbPANkgjJ",
+          "name": "KIA 2.jpg",
+          "filePath": "plasmic/refacciones/images/kia2Jpg.jpg"
+        },
+        {
+          "id": "XHIKbSq0G2Hg",
+          "name": "NISSAN ARIYA.jpg",
+          "filePath": "plasmic/refacciones/images/nissanAriyaJpg.jpg"
+        },
+        {
+          "id": "uCo-pXF4qg35",
+          "name": "MG.jpg",
+          "filePath": "plasmic/refacciones/images/mgJpg.jpg"
+        },
+        {
+          "id": "_ELUiRsi9_Yd",
+          "name": "RENAULT.jpg",
+          "filePath": "plasmic/refacciones/images/renaultJpg.jpg"
+        },
+        {
+          "id": "FJXkXol8xRjY",
+          "name": "SEAT.jpg",
+          "filePath": "plasmic/refacciones/images/seatJpg.jpg"
+        },
+        {
+          "id": "rR-0wsGAyisC",
+          "name": "SUSUKI.jpg",
+          "filePath": "plasmic/refacciones/images/susukiJpg.jpg"
+        },
+        {
+          "id": "ilBFMEmqxXhp",
+          "name": "VW.jpg",
+          "filePath": "plasmic/refacciones/images/vwJpg.jpg"
+        },
+        {
+          "id": "_I63lCn_dCrn",
+          "name": "TOYOTA.jpg",
+          "filePath": "plasmic/refacciones/images/toyotaJpg.jpg"
+        },
+        {
+          "id": "u2wUf61qnYJK",
+          "name": "RENO.jpg",
+          "filePath": "plasmic/refacciones/images/renoJpg.jpg"
+        },
+        {
+          "id": "S7IndjENkVBS",
+          "name": "TIK TOK.jpg",
+          "filePath": "plasmic/refacciones/images/tikTokJpg.jpg"
+        },
+        {
+          "id": "mYaD7wqzdEZ3",
+          "name": "ICON FACE.png",
+          "filePath": "plasmic/refacciones/images/iconFacePng.png"
         }
       ],
       "indirect": false,
@@ -719,6 +900,34 @@
           "name": "Fetcher",
           "displayName": "plasmic-data-source-fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "84wxoth5npGrp6RRXPL88z",
+      "projectApiToken": "hOzXksPB8gkTrKnfJeV9VDS8m8dnIXQn1xxDQZ5MHxv9orQY6JNgwmk6aDMZPLkocV2KtD9gNJXv5JwIbbzIQ",
+      "projectName": "react-scroll-parallax-global",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_scroll_parallax_global/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/react_scroll_parallax_global/PlasmicGlobalContextsProvider.jsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "bozP4lLlAZ",
+          "name": "ParallaxWrapper",
+          "displayName": "hostless-scroll-parallax",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
+        },
+        {
+          "id": "L6MfauX2Cw",
+          "name": "ParallaxProviderWrapper",
+          "displayName": "global-parallax-provider",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
         }
       ],
       "customFunctions": []

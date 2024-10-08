@@ -10,6 +10,7 @@
     "@plasmicpkgs/antd5": "^0.0.253",
     "@plasmicpkgs/plasmic-basic-components": "^0.0.230",
     "@plasmicpkgs/plasmic-rich-components": "^1.0.197",
+    "@plasmicpkgs/react-scroll-parallax": "^0.0.214",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

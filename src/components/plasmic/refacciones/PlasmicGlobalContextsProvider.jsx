@@ -5,9 +5,11 @@
 // Plasmic Project: 8hJWALBkKUeeBQwPGDeQHS
 import * as React from "react";
 import { AntdConfigProvider } from "@plasmicpkgs/antd5/skinny/registerConfigProvider";
+import { ParallaxProviderWrapper } from "@plasmicpkgs/react-scroll-parallax";
 
 export default function GlobalContextsProvider(props) {
-  const { children, antdConfigProviderProps } = props;
+  const { children, antdConfigProviderProps, parallaxProviderWrapperProps } =
+    props;
   return (
     <AntdConfigProvider
       {...antdConfigProviderProps}
@@ -101,7 +103,17 @@ export default function GlobalContextsProvider(props) {
           : false
       }
     >
-      {children}
+      <ParallaxProviderWrapper
+        {...parallaxProviderWrapperProps}
+        scrollAxis={
+          parallaxProviderWrapperProps &&
+          "scrollAxis" in parallaxProviderWrapperProps
+            ? parallaxProviderWrapperProps.scrollAxis
+            : "horizontal"
+        }
+      >
+        {children}
+      </ParallaxProviderWrapper>
     </AntdConfigProvider>
   );
 }

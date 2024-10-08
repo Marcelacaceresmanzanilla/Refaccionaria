@@ -33,17 +33,27 @@ import sty from "./PlasmicListadoDeProductos.module.css"; // plasmic-import: Gg2
 import Icon3Icon from "./icons/PlasmicIcon__Icon3"; // plasmic-import: LvBixuLJ8d5o/icon
 import Icon4Icon from "./icons/PlasmicIcon__Icon4"; // plasmic-import: UEYjHwO6Y9Mk/icon
 import Icon5Icon from "./icons/PlasmicIcon__Icon5"; // plasmic-import: HTOOEs3MCSuB/icon
-import Icon6Icon from "./icons/PlasmicIcon__Icon6"; // plasmic-import: h4CdY3HItaug/icon
-import Icon7Icon from "./icons/PlasmicIcon__Icon7"; // plasmic-import: uTYttWNaEUUI/icon
-import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: J0B87WZBRhbs/icon
-import Icon9Icon from "./icons/PlasmicIcon__Icon9"; // plasmic-import: lruOCJHd5GHh/icon
 import CheckSvgIcon from "./icons/PlasmicIcon__CheckSvg"; // plasmic-import: CWXe1ywOBmQJ/icon
-import image31Nq0AaRzFlL from "./images/image3.jpg"; // plasmic-import: 1nq0aaRZFl-L/picture
-import image4ChZz2ZI7IrSj from "./images/image4.jpg"; // plasmic-import: ChZz2zI7IrSJ/picture
-import image5DtXZoSdgy4Iq from "./images/image5.jpg"; // plasmic-import: DtXZoSdgy4iq/picture
-import image60S8ELaRh2RHd from "./images/image6.jpg"; // plasmic-import: 0s8eLaRh2rHd/picture
-import image7WwGrmnh8YS from "./images/image7.jpg"; // plasmic-import: Ww-GRMNH8Y_S/picture
-import image8TqfoWSxQcGs from "./images/image8.jpg"; // plasmic-import: _TqfoWSxQCGs/picture
+import auto1JpgBqhDtf1MTdnZ from "./images/auto1Jpg.jpg"; // plasmic-import: BQHDtf1MTdnZ/picture
+import auto2JpgAQjJa2SzGbV from "./images/auto2Jpg.jpg"; // plasmic-import: aQJJa2SzGbV_/picture
+import _2024SilveradoEvRst0221641471166Jpg5GWzmuPbn5Zn from "./images/_2024SilveradoEvRst0221641471166Jpg.jpg"; // plasmic-import: 5gWzmuPBN5zn/picture
+import auto3JpgMK3Rpt4QE5H9 from "./images/auto3Jpg.jpg"; // plasmic-import: mK3RPT4qE5h9/picture
+import _202204171125046545E44230891665R15815239647451221381321737Jpeg172596871Webp7ZcjYxv56K from "./images/_202204171125046545E44230891665R15815239647451221381321737Jpeg172596871Webp.webp"; // plasmic-import: 7-ZCJ-yxv56K/picture
+import auto6JpgJcz1GEtj5Tfh from "./images/auto6Jpg.jpg"; // plasmic-import: jcz1gEtj5tfh/picture
+import hyundaiJpgCFn3Vjf7V4N4 from "./images/hyundaiJpg.jpg"; // plasmic-import: CFn3vjf7v4n4/picture
+import hondaJpgZ0XRfKyTLdH8 from "./images/hondaJpg.jpg"; // plasmic-import: Z0xRfKyTLdH8/picture
+import mercedesJpgQeYK023WXdy from "./images/mercedesJpg.jpg"; // plasmic-import: QeY-K023wXDY/picture
+import kia2JpgY24WbPaNkgjJ from "./images/kia2Jpg.jpg"; // plasmic-import: Y24WbPANkgjJ/picture
+import mitsubishiJpgKSssEef4FJGu from "./images/mitsubishiJpg.jpg"; // plasmic-import: KSssEEF4fJGu/picture
+import mazdaJpegQriwsc807SEq from "./images/mazdaJpeg.jpg"; // plasmic-import: QRIWSC807sEq/picture
+import peugeotJpgUlwMzXrAgfrr from "./images/peugeotJpg.jpg"; // plasmic-import: UlwMZXrAGFRR/picture
+import nissanAriyaJpgXhiKbSq0G2Hg from "./images/nissanAriyaJpg.jpg"; // plasmic-import: XHIKbSq0G2Hg/picture
+import mgJpgUCoPXf4Qg35 from "./images/mgJpg.jpg"; // plasmic-import: uCo-pXF4qg35/picture
+import renoJpgU2WUf61QnYjk from "./images/renoJpg.jpg"; // plasmic-import: u2wUf61qnYJK/picture
+import seatJpgFjXkXol8XRjY from "./images/seatJpg.jpg"; // plasmic-import: FJXkXol8xRjY/picture
+import susukiJpgRR0WsGAyisC from "./images/susukiJpg.jpg"; // plasmic-import: rR-0wsGAyisC/picture
+import vwJpgIlBfmEmqxXhp from "./images/vwJpg.jpg"; // plasmic-import: ilBFMEmqxXhp/picture
+import toyotaJpgI63LCnDCrn from "./images/toyotaJpg.jpg"; // plasmic-import: _I63lCn_dCrn/picture
 import image9MTcGgEpViCi from "./images/image9.jpg"; // plasmic-import: m-tcGgEpViCi/picture
 import image10MW1JukGssZH from "./images/image10.jpg"; // plasmic-import: mW1JukGSS-zH/picture
 import image11Aryfpjf4F29L from "./images/image11.jpg"; // plasmic-import: ARYFPJF4F29L/picture
@@ -305,29 +315,18 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
             className={classNames(projectcss.all, sty.hero2)}
           >
             <div className={classNames(projectcss.all, sty.freeBox__v1Z6D)}>
-              <div
-                data-plasmic-name={"nuestroTitulo"}
-                data-plasmic-override={overrides.nuestroTitulo}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.nuestroTitulo
-                )}
-              >
-                {"REAFACIONARIA SOL"}
-              </div>
-              <h3
+              <h1
                 data-plasmic-name={"direccionesHidraulicas"}
                 data-plasmic-override={overrides.direccionesHidraulicas}
                 className={classNames(
                   projectcss.all,
-                  projectcss.h3,
+                  projectcss.h1,
                   projectcss.__wab_text,
                   sty.direccionesHidraulicas
                 )}
               >
-                {"DIRECCIONES HIDRAULICAS,COLISION "}
-              </h3>
+                {""}
+              </h1>
             </div>
           </div>
           <div
@@ -348,338 +347,1037 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                   sty.h1__dvCie
                 )}
               >
-                {"Featured posts"}
+                {
+                  "DIRECCIONES Y BOMBAS HIDRAULICAS\nSELECCIONA LA MARCA DE VEHICULO "
+                }
               </h1>
-              <Stack__
-                as={"div"}
-                data-plasmic-name={"row2"}
-                data-plasmic-override={overrides.row2}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.row2)}
-              >
-                <div className={classNames(projectcss.all, sty.column___9CMjY)}>
-                  <div
-                    data-plasmic-name={"blogCard"}
-                    data-plasmic-override={overrides.blogCard}
-                    className={classNames(projectcss.all, sty.blogCard)}
-                    onClick={async event => {
-                      const $steps = {};
-                      $steps["goToHomepage"] = true
-                        ? (() => {
-                            const actionArgs = { destination: `/` };
-                            return (({ destination }) => {
-                              if (
-                                typeof destination === "string" &&
-                                destination.startsWith("#")
-                              ) {
-                                document
-                                  .getElementById(destination.substr(1))
-                                  .scrollIntoView({ behavior: "smooth" });
-                              } else {
-                                location.assign(destination);
-                              }
-                            })?.apply(null, [actionArgs]);
-                          })()
-                        : undefined;
-                      if (
-                        $steps["goToHomepage"] != null &&
-                        typeof $steps["goToHomepage"] === "object" &&
-                        typeof $steps["goToHomepage"].then === "function"
-                      ) {
-                        $steps["goToHomepage"] = await $steps["goToHomepage"];
-                      }
-                    }}
-                  >
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img__mwUuA)}
-                      displayHeight={"auto"}
-                      displayMaxHeight={"275px"}
-                      displayMaxWidth={"100%"}
-                      displayMinHeight={"275px"}
-                      displayMinWidth={"0"}
-                      displayWidth={"100%"}
-                      loading={"lazy"}
-                      src={{
-                        src: image31Nq0AaRzFlL,
-                        fullWidth: 1024,
-                        fullHeight: 739,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__t1Kmq)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__fsOgc
-                        )}
-                      >
-                        {"Ramen"}
-                      </div>
-                      <h3
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h3,
-                          projectcss.__wab_text,
-                          sty.h3__sjwMn
-                        )}
-                      >
-                        {"Food Blog Title 1"}
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-                <div className={classNames(projectcss.all, sty.column__vvcFk)}>
-                  <div
-                    data-plasmic-name={"blogCard5"}
-                    data-plasmic-override={overrides.blogCard5}
-                    className={classNames(projectcss.all, sty.blogCard5)}
-                  >
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img__jYhuh)}
-                      displayHeight={"auto"}
-                      displayMaxHeight={"275px"}
-                      displayMaxWidth={"100%"}
-                      displayMinHeight={"275px"}
-                      displayMinWidth={"0"}
-                      displayWidth={"100%"}
-                      loading={"lazy"}
-                      src={{
-                        src: image4ChZz2ZI7IrSj,
-                        fullWidth: 1356,
-                        fullHeight: 668,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__giyjM)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___2Sn6Y
-                        )}
-                      >
-                        {"Drinks"}
-                      </div>
-                      <h3
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h3,
-                          projectcss.__wab_text,
-                          sty.h3__qpIe5
-                        )}
-                      >
-                        {"Food Blog Title 2"}
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-                <div className={classNames(projectcss.all, sty.column__pyElL)}>
-                  <div
-                    data-plasmic-name={"blogCard2"}
-                    data-plasmic-override={overrides.blogCard2}
-                    className={classNames(projectcss.all, sty.blogCard2)}
-                  >
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img___1Vvkp)}
-                      displayHeight={"auto"}
-                      displayMaxHeight={"275px"}
-                      displayMaxWidth={"100%"}
-                      displayMinHeight={"275px"}
-                      displayMinWidth={"0"}
-                      displayWidth={"100%"}
-                      loading={"lazy"}
-                      src={{
-                        src: image5DtXZoSdgy4Iq,
-                        fullWidth: 300,
-                        fullHeight: 168,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__hd2Wp)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__do8Ra
-                        )}
-                      >
-                        {"Organic"}
-                      </div>
-                      <h3
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h3,
-                          projectcss.__wab_text,
-                          sty.h3__vUvh
-                        )}
-                      >
-                        {"Food Blog Title 3"}
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-                <div className={classNames(projectcss.all, sty.column___5QNwV)}>
-                  <div
-                    data-plasmic-name={"blogCard3"}
-                    data-plasmic-override={overrides.blogCard3}
-                    className={classNames(projectcss.all, sty.blogCard3)}
-                  >
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img__w3L35)}
-                      displayHeight={"auto"}
-                      displayMaxHeight={"275px"}
-                      displayMaxWidth={"100%"}
-                      displayMinHeight={"275px"}
-                      displayMinWidth={"0"}
-                      displayWidth={"100%"}
-                      loading={"lazy"}
-                      src={{
-                        src: image60S8ELaRh2RHd,
-                        fullWidth: 673,
-                        fullHeight: 448,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__iJivR)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___2Botl
-                        )}
-                      >
-                        {"Seafood"}
-                      </div>
-                      <h3
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h3,
-                          projectcss.__wab_text,
-                          sty.h3__ko8Dq
-                        )}
-                      >
-                        {"Food Blog Title 4"}
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-                <div className={classNames(projectcss.all, sty.column___7D4DM)}>
-                  <div
-                    data-plasmic-name={"blogCard4"}
-                    data-plasmic-override={overrides.blogCard4}
-                    className={classNames(projectcss.all, sty.blogCard4)}
-                  >
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img__coKoY)}
-                      displayHeight={"auto"}
-                      displayMaxHeight={"275px"}
-                      displayMaxWidth={"100%"}
-                      displayMinHeight={"275px"}
-                      displayMinWidth={"0"}
-                      displayWidth={"100%"}
-                      loading={"lazy"}
-                      src={{
-                        src: image7WwGrmnh8YS,
-                        fullWidth: 1600,
-                        fullHeight: 1076,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__gTuFp)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__qi5BH
-                        )}
-                      >
-                        {"dinner"}
-                      </div>
-                      <h3
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h3,
-                          projectcss.__wab_text,
-                          sty.h3__z9BTu
-                        )}
-                      >
-                        {"Food Blog Title 5"}
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-                <div className={classNames(projectcss.all, sty.column__mbZxp)}>
-                  <div
-                    data-plasmic-name={"blogCard6"}
-                    data-plasmic-override={overrides.blogCard6}
-                    className={classNames(projectcss.all, sty.blogCard6)}
-                  >
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img__sk3Fw)}
-                      displayHeight={"auto"}
-                      displayMaxHeight={"275px"}
-                      displayMaxWidth={"100%"}
-                      displayMinHeight={"275px"}
-                      displayMinWidth={"0"}
-                      displayWidth={"100%"}
-                      loading={"lazy"}
-                      src={{
-                        src: image8TqfoWSxQcGs,
-                        fullWidth: 700,
-                        fullHeight: 400,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox___0CJ2)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___5ZrOu
-                        )}
-                      >
-                        {"italian"}
-                      </div>
-                      <h3
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h3,
-                          projectcss.__wab_text,
-                          sty.h3___0A9Em
-                        )}
-                      >
-                        {"Food Blog Title 6"}
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-              </Stack__>
             </div>
+            <Stack__
+              as={"div"}
+              data-plasmic-name={"row5"}
+              data-plasmic-override={overrides.row5}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.row5)}
+            >
+              <div className={classNames(projectcss.all, sty.column___9CMjY)}>
+                <div
+                  data-plasmic-name={"blogCard"}
+                  data-plasmic-override={overrides.blogCard}
+                  className={classNames(projectcss.all, sty.blogCard)}
+                  onClick={async event => {
+                    const $steps = {};
+                    $steps["goToHomepage"] = true
+                      ? (() => {
+                          const actionArgs = {};
+                          return (({ destination }) => {
+                            if (
+                              typeof destination === "string" &&
+                              destination.startsWith("#")
+                            ) {
+                              document
+                                .getElementById(destination.substr(1))
+                                .scrollIntoView({ behavior: "smooth" });
+                            } else {
+                              location.assign(destination);
+                            }
+                          })?.apply(null, [actionArgs]);
+                        })()
+                      : undefined;
+                    if (
+                      $steps["goToHomepage"] != null &&
+                      typeof $steps["goToHomepage"] === "object" &&
+                      typeof $steps["goToHomepage"].then === "function"
+                    ) {
+                      $steps["goToHomepage"] = await $steps["goToHomepage"];
+                    }
+                  }}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__mwUuA)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: auto1JpgBqhDtf1MTdnZ,
+                      fullWidth: 736,
+                      fullHeight: 1308,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__t1Kmq)}
+                  >
+                    <div
+                      data-plasmic-name={"marca"}
+                      data-plasmic-override={overrides.marca}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.marca
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h1
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h1,
+                        projectcss.__wab_text,
+                        sty.h1__sjwMn
+                      )}
+                    >
+                      <React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ fontWeight: 600 }}
+                        >
+                          {"AUDI"}
+                        </span>
+                      </React.Fragment>
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__vvcFk)}>
+                <div
+                  data-plasmic-name={"blogCard5"}
+                  data-plasmic-override={overrides.blogCard5}
+                  className={classNames(projectcss.all, sty.blogCard5)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__jYhuh)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: auto2JpgAQjJa2SzGbV,
+                      fullWidth: 676,
+                      fullHeight: 1201,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__giyjM)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___2Sn6Y
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__qpIe5
+                      )}
+                    >
+                      {"BMW"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__pyElL)}>
+                <div
+                  data-plasmic-name={"blogCard2"}
+                  data-plasmic-override={overrides.blogCard2}
+                  className={classNames(projectcss.all, sty.blogCard2)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img___1Vvkp)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: _2024SilveradoEvRst0221641471166Jpg5GWzmuPbn5Zn,
+                      fullWidth: 2500,
+                      fullHeight: 1406,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__hd2Wp)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__do8Ra
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__vUvh
+                      )}
+                    >
+                      {"CHEVROLET"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column___5QNwV)}>
+                <div
+                  data-plasmic-name={"blogCard3"}
+                  data-plasmic-override={overrides.blogCard3}
+                  className={classNames(projectcss.all, sty.blogCard3)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__w3L35)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: auto3JpgMK3Rpt4QE5H9,
+                      fullWidth: 736,
+                      fullHeight: 1308,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__iJivR)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___2Botl
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__ko8Dq
+                      )}
+                    >
+                      {"CHRYSLER/DODGE"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column___7D4DM)}>
+                <div
+                  data-plasmic-name={"blogCard4"}
+                  data-plasmic-override={overrides.blogCard4}
+                  className={classNames(projectcss.all, sty.blogCard4)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__coKoY)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: _202204171125046545E44230891665R15815239647451221381321737Jpeg172596871Webp7ZcjYxv56K,
+                      fullWidth: 1200,
+                      fullHeight: 740,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__gTuFp)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__qi5BH
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__z9BTu
+                      )}
+                    >
+                      {"FIAT"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__mbZxp)}>
+                <div
+                  data-plasmic-name={"blogCard6"}
+                  data-plasmic-override={overrides.blogCard6}
+                  className={classNames(projectcss.all, sty.blogCard6)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__sk3Fw)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: auto6JpgJcz1GEtj5Tfh,
+                      fullWidth: 736,
+                      fullHeight: 920,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox___0CJ2)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___5ZrOu
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3___0A9Em
+                      )}
+                    >
+                      {"FORD"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__iurd8)}>
+                <div
+                  data-plasmic-name={"blogCard8"}
+                  data-plasmic-override={overrides.blogCard8}
+                  className={classNames(projectcss.all, sty.blogCard8)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__xwvk4)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: hyundaiJpgCFn3Vjf7V4N4,
+                      fullWidth: 720,
+                      fullHeight: 1280,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__b4OMv)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__nTlde
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__nNq3O
+                      )}
+                    >
+                      {"HYUNDAI"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__tpaXc)}>
+                <div
+                  data-plasmic-name={"blogCard7"}
+                  data-plasmic-override={overrides.blogCard7}
+                  className={classNames(projectcss.all, sty.blogCard7)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img___833HF)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: hondaJpgZ0XRfKyTLdH8,
+                      fullWidth: 998,
+                      fullHeight: 1499,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__wp12L)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__rxVbj
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__roCoD
+                      )}
+                    >
+                      {"HONDA"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__z8NQa)}>
+                <div
+                  data-plasmic-name={"blogCard10"}
+                  data-plasmic-override={overrides.blogCard10}
+                  className={classNames(projectcss.all, sty.blogCard10)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__fbknd)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: mercedesJpgQeYK023WXdy,
+                      fullWidth: 736,
+                      fullHeight: 1104,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__kyCmu)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__eqmE0
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__cx0GI
+                      )}
+                    >
+                      {"MERCEDES BENZ"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column___3GeeE)}>
+                <div
+                  data-plasmic-name={"blogCard11"}
+                  data-plasmic-override={overrides.blogCard11}
+                  className={classNames(projectcss.all, sty.blogCard11)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__z0Whk)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: kia2JpgY24WbPaNkgjJ,
+                      fullWidth: 736,
+                      fullHeight: 414,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__k2PvS)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__wKbF
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__vBcdx
+                      )}
+                    >
+                      {"KIA"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__fMf3U)}>
+                <div
+                  data-plasmic-name={"blogCard12"}
+                  data-plasmic-override={overrides.blogCard12}
+                  className={classNames(projectcss.all, sty.blogCard12)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__nzopb)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: mitsubishiJpgKSssEef4FJGu,
+                      fullWidth: 675,
+                      fullHeight: 1200,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__qUhBf)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__h8Jxu
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__hVS9
+                      )}
+                    >
+                      {"MITSUBISHI"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column___2U2Bo)}>
+                <div
+                  data-plasmic-name={"blogCard13"}
+                  data-plasmic-override={overrides.blogCard13}
+                  className={classNames(projectcss.all, sty.blogCard13)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__zgp0J)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: mazdaJpegQriwsc807SEq,
+                      fullWidth: 736,
+                      fullHeight: 736,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__sl53W)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__vD2VZ
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3___7NmYe
+                      )}
+                    >
+                      {"MAZDA"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__uXiyh)}>
+                <div
+                  data-plasmic-name={"blogCard14"}
+                  data-plasmic-override={overrides.blogCard14}
+                  className={classNames(projectcss.all, sty.blogCard14)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__f7IuH)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: peugeotJpgUlwMzXrAgfrr,
+                      fullWidth: 736,
+                      fullHeight: 920,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox___3Gri2)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__uS4E
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__hWbPe
+                      )}
+                    >
+                      {"PEUGEOT"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__qyD90)}>
+                <div
+                  data-plasmic-name={"blogCard15"}
+                  data-plasmic-override={overrides.blogCard15}
+                  className={classNames(projectcss.all, sty.blogCard15)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__pSyof)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: nissanAriyaJpgXhiKbSq0G2Hg,
+                      fullWidth: 478,
+                      fullHeight: 718,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__pwtvt)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__yadt6
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__fiPn
+                      )}
+                    >
+                      {"NISSAN"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__njF1)}>
+                <div
+                  data-plasmic-name={"blogCard16"}
+                  data-plasmic-override={overrides.blogCard16}
+                  className={classNames(projectcss.all, sty.blogCard16)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__romer)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: mgJpgUCoPXf4Qg35,
+                      fullWidth: 735,
+                      fullHeight: 490,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__ztZaz)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__rGp1Z
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__dBi
+                      )}
+                    >
+                      {"MG"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__waDgP)}>
+                <div
+                  data-plasmic-name={"blogCard17"}
+                  data-plasmic-override={overrides.blogCard17}
+                  className={classNames(projectcss.all, sty.blogCard17)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__fnnlu)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: renoJpgU2WUf61QnYjk,
+                      fullWidth: 364,
+                      fullHeight: 205,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__ejxI)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__b4BbE
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__ncfdC
+                      )}
+                    >
+                      {"RENAULT"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__mmHkq)}>
+                <div
+                  data-plasmic-name={"blogCard18"}
+                  data-plasmic-override={overrides.blogCard18}
+                  className={classNames(projectcss.all, sty.blogCard18)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__lFkk)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: seatJpgFjXkXol8XRjY,
+                      fullWidth: 735,
+                      fullHeight: 1306,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__aaNex)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__fnHN
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__k6H1H
+                      )}
+                    >
+                      {"SEAT"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__pJplR)}>
+                <div
+                  data-plasmic-name={"blogCard19"}
+                  data-plasmic-override={overrides.blogCard19}
+                  className={classNames(projectcss.all, sty.blogCard19)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__j0L5E)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: susukiJpgRR0WsGAyisC,
+                      fullWidth: 735,
+                      fullHeight: 919,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__qefPb)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__kXm7L
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__pqNz
+                      )}
+                    >
+                      {"SUSUKI"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__x8IsN)}>
+                <div
+                  data-plasmic-name={"blogCard20"}
+                  data-plasmic-override={overrides.blogCard20}
+                  className={classNames(projectcss.all, sty.blogCard20)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__u7Yl0)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: vwJpgIlBfmEmqxXhp,
+                      fullWidth: 736,
+                      fullHeight: 736,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__hCj0D)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__kICx
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__wzEj4
+                      )}
+                    >
+                      {"VOLKSWAGEN"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column___23G3G)}>
+                <div
+                  data-plasmic-name={"blogCard21"}
+                  data-plasmic-override={overrides.blogCard21}
+                  className={classNames(projectcss.all, sty.blogCard21)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__njyP)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"275px"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"275px"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: toyotaJpgI63LCnDCrn,
+                      fullWidth: 735,
+                      fullHeight: 687,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__saRQs)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__q96P
+                      )}
+                    >
+                      {""}
+                    </div>
+                    <h3
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h3,
+                        projectcss.__wab_text,
+                        sty.h3__uffQ6
+                      )}
+                    >
+                      {"TOYOTA"}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </Stack__>
           </div>
           <div
             data-plasmic-name={"popularCategories"}
@@ -699,7 +1397,7 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                   sty.h2__vPVdi
                 )}
               >
-                {"Explore popular tags"}
+                {"VISITANOS EN:"}
               </h2>
               <Stack__
                 as={"div"}
@@ -716,12 +1414,8 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                   >
                     <div
                       className={classNames(projectcss.all, sty.freeBox__ii7Dj)}
-                    >
-                      <Icon6Icon
-                        className={classNames(projectcss.all, sty.svg__pGwJl)}
-                        role={"img"}
-                      />
-                    </div>
+                    />
+
                     <div
                       className={classNames(
                         projectcss.all,
@@ -729,7 +1423,7 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                         sty.text__onUxx
                       )}
                     >
-                      {"PASTA / NOODLES"}
+                      {""}
                     </div>
                   </div>
                 </div>
@@ -744,12 +1438,8 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                         projectcss.all,
                         sty.freeBox___3NuRi
                       )}
-                    >
-                      <Icon7Icon
-                        className={classNames(projectcss.all, sty.svg__ieiPt)}
-                        role={"img"}
-                      />
-                    </div>
+                    />
+
                     <div
                       className={classNames(
                         projectcss.all,
@@ -757,7 +1447,7 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                         sty.text__mdaKj
                       )}
                     >
-                      {"BEVERAGES"}
+                      {""}
                     </div>
                   </div>
                 </div>
@@ -772,12 +1462,8 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                         projectcss.all,
                         sty.freeBox___9BBtB
                       )}
-                    >
-                      <Icon8Icon
-                        className={classNames(projectcss.all, sty.svg__qbab)}
-                        role={"img"}
-                      />
-                    </div>
+                    />
+
                     <div
                       className={classNames(
                         projectcss.all,
@@ -785,7 +1471,7 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                         sty.text__qqJmj
                       )}
                     >
-                      {"VEGAN"}
+                      {""}
                     </div>
                   </div>
                 </div>
@@ -796,21 +1482,13 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                     className={classNames(projectcss.all, sty.card4)}
                   >
                     <div
-                      className={classNames(projectcss.all, sty.freeBox__seewr)}
-                    >
-                      <Icon9Icon
-                        className={classNames(projectcss.all, sty.svg__r5CBt)}
-                        role={"img"}
-                      />
-                    </div>
-                    <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
                         sty.text__y2CbI
                       )}
                     >
-                      {"SEAFOOD"}
+                      {""}
                     </div>
                   </div>
                 </div>
@@ -1312,17 +1990,31 @@ const PlasmicDescendants = {
     "hero",
     "container2",
     "hero2",
-    "nuestroTitulo",
     "direccionesHidraulicas",
     "blog",
     "container3",
-    "row2",
+    "row5",
     "blogCard",
+    "marca",
     "blogCard5",
     "blogCard2",
     "blogCard3",
     "blogCard4",
     "blogCard6",
+    "blogCard8",
+    "blogCard7",
+    "blogCard10",
+    "blogCard11",
+    "blogCard12",
+    "blogCard13",
+    "blogCard14",
+    "blogCard15",
+    "blogCard16",
+    "blogCard17",
+    "blogCard18",
+    "blogCard19",
+    "blogCard20",
+    "blogCard21",
     "popularCategories",
     "container4",
     "row3",
@@ -1351,48 +2043,82 @@ const PlasmicDescendants = {
   socialSection: ["socialSection"],
   hero: ["hero", "container2"],
   container2: ["container2"],
-  hero2: ["hero2", "nuestroTitulo", "direccionesHidraulicas"],
-  nuestroTitulo: ["nuestroTitulo"],
+  hero2: ["hero2", "direccionesHidraulicas"],
   direccionesHidraulicas: ["direccionesHidraulicas"],
   blog: [
     "blog",
     "container3",
-    "row2",
+    "row5",
     "blogCard",
+    "marca",
     "blogCard5",
     "blogCard2",
     "blogCard3",
     "blogCard4",
-    "blogCard6"
+    "blogCard6",
+    "blogCard8",
+    "blogCard7",
+    "blogCard10",
+    "blogCard11",
+    "blogCard12",
+    "blogCard13",
+    "blogCard14",
+    "blogCard15",
+    "blogCard16",
+    "blogCard17",
+    "blogCard18",
+    "blogCard19",
+    "blogCard20",
+    "blogCard21"
   ],
 
-  container3: [
-    "container3",
-    "row2",
+  container3: ["container3"],
+  row5: [
+    "row5",
     "blogCard",
+    "marca",
     "blogCard5",
     "blogCard2",
     "blogCard3",
     "blogCard4",
-    "blogCard6"
+    "blogCard6",
+    "blogCard8",
+    "blogCard7",
+    "blogCard10",
+    "blogCard11",
+    "blogCard12",
+    "blogCard13",
+    "blogCard14",
+    "blogCard15",
+    "blogCard16",
+    "blogCard17",
+    "blogCard18",
+    "blogCard19",
+    "blogCard20",
+    "blogCard21"
   ],
 
-  row2: [
-    "row2",
-    "blogCard",
-    "blogCard5",
-    "blogCard2",
-    "blogCard3",
-    "blogCard4",
-    "blogCard6"
-  ],
-
-  blogCard: ["blogCard"],
+  blogCard: ["blogCard", "marca"],
+  marca: ["marca"],
   blogCard5: ["blogCard5"],
   blogCard2: ["blogCard2"],
   blogCard3: ["blogCard3"],
   blogCard4: ["blogCard4"],
   blogCard6: ["blogCard6"],
+  blogCard8: ["blogCard8"],
+  blogCard7: ["blogCard7"],
+  blogCard10: ["blogCard10"],
+  blogCard11: ["blogCard11"],
+  blogCard12: ["blogCard12"],
+  blogCard13: ["blogCard13"],
+  blogCard14: ["blogCard14"],
+  blogCard15: ["blogCard15"],
+  blogCard16: ["blogCard16"],
+  blogCard17: ["blogCard17"],
+  blogCard18: ["blogCard18"],
+  blogCard19: ["blogCard19"],
+  blogCard20: ["blogCard20"],
+  blogCard21: ["blogCard21"],
   popularCategories: [
     "popularCategories",
     "container4",
@@ -1480,17 +2206,31 @@ export const PlasmicListadoDeProductos = Object.assign(
     hero: makeNodeComponent("hero"),
     container2: makeNodeComponent("container2"),
     hero2: makeNodeComponent("hero2"),
-    nuestroTitulo: makeNodeComponent("nuestroTitulo"),
     direccionesHidraulicas: makeNodeComponent("direccionesHidraulicas"),
     blog: makeNodeComponent("blog"),
     container3: makeNodeComponent("container3"),
-    row2: makeNodeComponent("row2"),
+    row5: makeNodeComponent("row5"),
     blogCard: makeNodeComponent("blogCard"),
+    marca: makeNodeComponent("marca"),
     blogCard5: makeNodeComponent("blogCard5"),
     blogCard2: makeNodeComponent("blogCard2"),
     blogCard3: makeNodeComponent("blogCard3"),
     blogCard4: makeNodeComponent("blogCard4"),
     blogCard6: makeNodeComponent("blogCard6"),
+    blogCard8: makeNodeComponent("blogCard8"),
+    blogCard7: makeNodeComponent("blogCard7"),
+    blogCard10: makeNodeComponent("blogCard10"),
+    blogCard11: makeNodeComponent("blogCard11"),
+    blogCard12: makeNodeComponent("blogCard12"),
+    blogCard13: makeNodeComponent("blogCard13"),
+    blogCard14: makeNodeComponent("blogCard14"),
+    blogCard15: makeNodeComponent("blogCard15"),
+    blogCard16: makeNodeComponent("blogCard16"),
+    blogCard17: makeNodeComponent("blogCard17"),
+    blogCard18: makeNodeComponent("blogCard18"),
+    blogCard19: makeNodeComponent("blogCard19"),
+    blogCard20: makeNodeComponent("blogCard20"),
+    blogCard21: makeNodeComponent("blogCard21"),
     popularCategories: makeNodeComponent("popularCategories"),
     container4: makeNodeComponent("container4"),
     row3: makeNodeComponent("row3"),
