@@ -514,7 +514,7 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                 )}
               >
                 {
-                  "DIRECCIONES Y BOMBAS HIDRAULICAS\nSELECCIONA LA MARCA DE VEHICULO "
+                  "DIRECCIONES Y BOMBAS HIDRAULICAS\nHAZ CLICK EN LA MARCA DEL VEHICULO "
                 }
               </h1>
             </div>
