@@ -732,7 +732,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard {
   display: flex;
@@ -744,11 +744,11 @@
   height: auto;
   max-width: 100%;
   background: #ffffff;
-  margin-bottom: 30px;
   align-self: center;
   box-shadow: 30px 20px 20px 0px #262222;
   min-width: 0;
   padding: 0px;
+  margin: 40px;
 }
 .img__mwUuA {
   position: relative;
@@ -827,7 +827,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard5 {
   display: flex;
@@ -920,7 +920,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard2 {
   display: flex;
@@ -943,7 +943,7 @@
   max-width: 100%;
   width: 100%;
   min-height: 275px;
-  max-height: 275px;
+  max-height: 180px;
   opacity: 0.8;
 }
 .img___1Vvkp > picture > img {
@@ -1013,7 +1013,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard3 {
   display: flex;
@@ -1107,7 +1107,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard4 {
   display: flex;
@@ -1201,7 +1201,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard6 {
   display: flex;
@@ -1296,7 +1296,7 @@
   background: url("https://studio.plasmic.app/static/img/placeholder.png") top
     50% left 50% / cover repeat;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard8 {
   display: flex;
@@ -1389,7 +1389,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard7 {
   display: flex;
@@ -1482,7 +1482,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard10 {
   display: flex;
@@ -1575,7 +1575,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard11 {
   display: flex;
@@ -1668,7 +1668,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard12 {
   display: flex;
@@ -1761,7 +1761,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard13 {
   display: flex;
@@ -1854,7 +1854,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard14 {
   display: flex;
@@ -1947,7 +1947,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard15 {
   display: flex;
@@ -2040,7 +2040,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard16 {
   display: flex;
@@ -2133,7 +2133,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard17 {
   display: flex;
@@ -2226,7 +2226,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard18 {
   display: flex;
@@ -2319,7 +2319,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard19 {
   display: flex;
@@ -2412,7 +2412,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard20 {
   display: flex;
@@ -2505,7 +2505,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
-  padding: 0px;
+  padding: 35px;
 }
 .blogCard21 {
   display: flex;
@@ -2598,10 +2598,11 @@
   height: auto;
   max-width: 100%;
   background: linear-gradient(
-      var(--token-_5gBev-c4IE1),
-      var(--token-_5gBev-c4IE1)
+      var(--token-fDNuFs9Skt3p),
+      var(--token-fDNuFs9Skt3p)
     ),
-    #bf0603;
+    linear-gradient(var(--token-_5gBev-c4IE1), var(--token-_5gBev-c4IE1)),
+    var(--token-fDNuFs9Skt3p);
   min-width: 0;
   padding: 80px 16px;
 }
@@ -2644,6 +2645,18 @@
     text-align: center;
     padding: 0px;
   }
+}
+.freeBox__fIkL {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
 }
 .row3 {
   display: flex;
@@ -2939,6 +2952,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
+  background: var(--token-IbRLKagyRkT2);
   min-width: 0;
   padding: 100px 0px;
 }

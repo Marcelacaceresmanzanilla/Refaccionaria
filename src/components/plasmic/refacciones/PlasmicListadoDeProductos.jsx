@@ -42,17 +42,17 @@ import auto3JpgMK3Rpt4QE5H9 from "./images/auto3Jpg.jpg"; // plasmic-import: mK3
 import _202204171125046545E44230891665R15815239647451221381321737Jpeg172596871Webp7ZcjYxv56K from "./images/_202204171125046545E44230891665R15815239647451221381321737Jpeg172596871Webp.webp"; // plasmic-import: 7-ZCJ-yxv56K/picture
 import auto6JpgJcz1GEtj5Tfh from "./images/auto6Jpg.jpg"; // plasmic-import: jcz1gEtj5tfh/picture
 import hyundaiJpgCFn3Vjf7V4N4 from "./images/hyundaiJpg.jpg"; // plasmic-import: CFn3vjf7v4n4/picture
-import hondaJpgZ0XRfKyTLdH8 from "./images/hondaJpg.jpg"; // plasmic-import: Z0xRfKyTLdH8/picture
+import honda3JpgEeMIsjoFNdmo from "./images/honda3Jpg.jpg"; // plasmic-import: eeMIsjoFNdmo/picture
 import mercedesJpgQeYK023WXdy from "./images/mercedesJpg.jpg"; // plasmic-import: QeY-K023wXDY/picture
 import kia2JpgY24WbPaNkgjJ from "./images/kia2Jpg.jpg"; // plasmic-import: Y24WbPANkgjJ/picture
-import mitsubishiJpgKSssEef4FJGu from "./images/mitsubishiJpg.jpg"; // plasmic-import: KSssEEF4fJGu/picture
-import mazdaJpegQriwsc807SEq from "./images/mazdaJpeg.jpg"; // plasmic-import: QRIWSC807sEq/picture
-import peugeotJpgUlwMzXrAgfrr from "./images/peugeotJpg.jpg"; // plasmic-import: UlwMZXrAGFRR/picture
+import mitsubi3JpgOJy5DGbCp0C from "./images/mitsubi3Jpg.jpg"; // plasmic-import: -OJy5DGbCp0c/picture
+import mazda3JpgXyHx4W6UmSt from "./images/mazda3Jpg.jpg"; // plasmic-import: XyHX4W6UMSt_/picture
+import peogeot3JpgQzRfD9M8AZme from "./images/peogeot3Jpg.jpg"; // plasmic-import: QZRfD9M8AZme/picture
 import nissanAriyaJpgXhiKbSq0G2Hg from "./images/nissanAriyaJpg.jpg"; // plasmic-import: XHIKbSq0G2Hg/picture
 import mgJpgUCoPXf4Qg35 from "./images/mgJpg.jpg"; // plasmic-import: uCo-pXF4qg35/picture
 import renoJpgU2WUf61QnYjk from "./images/renoJpg.jpg"; // plasmic-import: u2wUf61qnYJK/picture
-import seatJpgFjXkXol8XRjY from "./images/seatJpg.jpg"; // plasmic-import: FJXkXol8xRjY/picture
-import susukiJpgRR0WsGAyisC from "./images/susukiJpg.jpg"; // plasmic-import: rR-0wsGAyisC/picture
+import seat3JpgPjt8JZysSqe from "./images/seat3Jpg.jpg"; // plasmic-import: Pjt_8jZysSqe/picture
+import susuki3JpgVXsm5Aao1Qa4 from "./images/susuki3Jpg.jpg"; // plasmic-import: vXsm5aao1qa4/picture
 import vwJpgIlBfmEmqxXhp from "./images/vwJpg.jpg"; // plasmic-import: ilBFMEmqxXhp/picture
 import toyotaJpgI63LCnDCrn from "./images/toyotaJpg.jpg"; // plasmic-import: _I63lCn_dCrn/picture
 import image9MTcGgEpViCi from "./images/image9.jpg"; // plasmic-import: m-tcGgEpViCi/picture
@@ -671,7 +671,7 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                     alt={""}
                     className={classNames(sty.img___1Vvkp)}
                     displayHeight={"auto"}
-                    displayMaxHeight={"275px"}
+                    displayMaxHeight={"180px"}
                     displayMaxWidth={"100%"}
                     displayMinHeight={"275px"}
                     displayMinWidth={"0"}
@@ -923,9 +923,9 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                     displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
-                      src: hondaJpgZ0XRfKyTLdH8,
-                      fullWidth: 998,
-                      fullHeight: 1499,
+                      src: honda3JpgEeMIsjoFNdmo,
+                      fullWidth: 736,
+                      fullHeight: 736,
                       aspectRatio: undefined
                     }}
                   />
@@ -1070,9 +1070,9 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                     displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
-                      src: mitsubishiJpgKSssEef4FJGu,
-                      fullWidth: 675,
-                      fullHeight: 1200,
+                      src: mitsubi3JpgOJy5DGbCp0C,
+                      fullWidth: 736,
+                      fullHeight: 736,
                       aspectRatio: undefined
                     }}
                   />
@@ -1119,9 +1119,9 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                     displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
-                      src: mazdaJpegQriwsc807SEq,
+                      src: mazda3JpgXyHx4W6UmSt,
                       fullWidth: 736,
-                      fullHeight: 736,
+                      fullHeight: 414,
                       aspectRatio: undefined
                     }}
                   />
@@ -1168,9 +1168,9 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                     displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
-                      src: peugeotJpgUlwMzXrAgfrr,
+                      src: peogeot3JpgQzRfD9M8AZme,
                       fullWidth: 736,
-                      fullHeight: 920,
+                      fullHeight: 414,
                       aspectRatio: undefined
                     }}
                   />
@@ -1364,9 +1364,9 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                     displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
-                      src: seatJpgFjXkXol8XRjY,
+                      src: seat3JpgPjt8JZysSqe,
                       fullWidth: 735,
-                      fullHeight: 1306,
+                      fullHeight: 386,
                       aspectRatio: undefined
                     }}
                   />
@@ -1413,9 +1413,9 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                     displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
-                      src: susukiJpgRR0WsGAyisC,
-                      fullWidth: 735,
-                      fullHeight: 919,
+                      src: susuki3JpgVXsm5Aao1Qa4,
+                      fullWidth: 734,
+                      fullHeight: 382,
                       aspectRatio: undefined
                     }}
                   />
@@ -1563,8 +1563,9 @@ function PlasmicListadoDeProductos__RenderFunc(props) {
                   sty.h2__vPVdi
                 )}
               >
-                {"VISITANOS EN:"}
+                {"FORMAS DE PAGO"}
               </h2>
+              <div className={classNames(projectcss.all, sty.freeBox__fIkL)} />
               <Stack__
                 as={"div"}
                 data-plasmic-name={"row3"}
